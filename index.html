@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Karthik Nair's Portfolio Website
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Merriweather:wght@900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/54ab5a836a.js" crossorigin="anonymous"></script>
+
+
+</head>>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="#about" class="nav_link">About Me</a></li>
+                <li class="nav_item"><a href="#coursework" class="nav_link">My Coursework</a></li>
+                <li class="nav_item"><a href="#projects" class="nav_link">My Projects</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction-->
+
+    <section class="intro" id="home">
+        <h1 class="section_title section_title--intro">
+            Hi, I am <strong>Karthik Nair</strong>
+        </h1>
+        <p class="section_subtitle--intro section_subtitle">Computer Science Student at Virginia Tech</p>
+        <img src="img/headerimg.jpg" alt="portrait of myself" class="intro_img">
+    </section>
+
+    <!-- About Me-->
+    <section class="about-me" id="about">
+        <h2 class="section_title section_title--about">About Me</h2>
+        <div class="about">
+            <div class="about-sections">
+                <h3>Background</h3>
+                <p>I am a junior at Virginia Tech majoring in Computer Science and
+                    minoring in Human-Computer Interaction. I am origninally from
+                    Richmond, Virginia. My love for computers and technology
+                    started at a young age when I would keep up to date
+                    with the latest mobile phones and dream of having them.
+                    In my freetime, I enjoy watching and playing football and basketball, 
+                    catching up on my favorite TV shows on Netflix, and trying new foods
+                    with my friends.
+                 
+                    My goal is to have a position as a Software Engineering Intern for Summer
+                    2022 and pursue a job in mobile software development after college.
+                </p>
+
+            </div>
+            <!--/ background-->
+
+            <div style="width: 200em;" class="about-sections">
+                <h3>Education</h3>
+                <p>I graduated from Henrico High School with an International Baccalaureate
+                    and Advanced Studies Diploma. I plan on graduating from Virginia Tech
+                    in the spring of 2023 with a Bachelor's Degree in Computer Science.
+                </p>
+
+            </div>
+            <!--/ education-->
+
+            <div class="about-sections">
+                <h3>Skills + Experiences</h3>
+                <p>
+                    My skills include Java, C, Python, HTML, CSS, Linux, technical writing, and technical
+                    presentations.
+
+                    My programming experience started in 10th grade when I created an IOS app which displays local
+                    emergency room wait times.
+                    Details of that project and others can be found <a href="#projects">here</a>.
+                    I am a member of the Google Developer Student Club at Virginia Tech. Currently, we are working on a
+                    social media app based around music. We are in the early development phases and we are currently
+                    learning Flutter.
+                </p>
+
+            </div>
+            <!--/ skills + experiences-->
+        </div>
+        <!--/ about-->
+
+    </section>
+
+    <!--My Coursework-->
+    <section class="my-coursework" id="coursework">
+        <h2 class="section_title section_title--coursework">My Coursework</h2>
+        <p class="section_subtitle section_subtitle--coursework">The Relevant CS Courses I Have Taken</p>
+
+        <div class="my-coursework_body">
+            <p>
+                <ul>
+                    <li>Introduction to Software Design (CS 1114)</li>
+                    <li>Software Design & Data Structures (CS 2114)</li>
+                    <li>Introduction to Problem Solving in Computer Science (CS 2104)</li>
+                    <li>Computer Organization I (CS 2505)</li>
+                    <li>Computer Organization II (CS 2506)</li>
+                    <li>Introduction to Human-Computer Interaction (CS 3724)</li>
+                </ul>    
+            </p>
+           
+
+        </div>
+
+        <img src="img/coursework.jpg" alt="pic for coursework" class="my-coursework_img">
+
+    </section>
+
+    <!--My Projects-->
+    <section class="my-projects" id="projects">
+        <h2 class="section_title section_title--projects">My Projects</h2>
+        <p class="section_subtitle section_subtitle--projects">A showcase of the various projects I have worked on</p>
+
+        <div class="portfolio">
+            <!--Portfolio Item 1-->
+            <a href="project-item.html" class="portfolio_item">
+                <img src="img/ERAppLoadScreen.PNG" alt="Load Screen for ER App" class="portfolio_img">
+            </a>
+
+            <!--Portfolio Item 2-->
+            <a href="project-item2.html" class="portfolio_item">
+                <img src="img/MIPSStock.jpg" alt="Sample input and output for MIPS assembler" class="portfolio_img">
+            </a>
+
+            <!--Portfolio Item 3-->
+            <a href="project-item3.html" class="portfolio_item">
+                <img src="img/covidGraph.PNG" alt="COVID graph" class="portfolio_img">
+            </a>
+        </div>
+
+    </section>
+
+
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:nairks01@vt.edu" class="footer_link">nairks01@vt.edu</a>
+        
+        <ul class="social-list">
+            <li class="social-list_item"><a class="social-list_link"
+                    href="https://www.linkedin.com/in/karthik-nair-vt/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list_item"><a class="social-list_link" href="https://github.com/nairks01">
+                <i class="fab fa-github"></i>
+                 </a>
+            </li>
+
+        </ul>
+
+        <p style="font-size: small; padding-top: 2em; color: aliceblue;">This website was created with the help of a 
+            <a style = "color: aqua;" href="https://www.youtube.com/watch?v=_xkSvufmjEs&t=7588s&ab_channel=freeCodeCamp.org">tutorial</a> 
+            from freeCodeCamp.org</p>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+
+
+</html>

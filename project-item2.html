@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Karthik Nair's Portfolio Website
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Merriweather:wght@900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/54ab5a836a.js" crossorigin="anonymous"></script>
+
+
+</head>>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="vt logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="index.html#about" class="nav_link">About Me</a></li>
+                <li class="nav_item"><a href="index.html#coursework" class="nav_link">My Coursework</a></li>
+                <li class="nav_item"><a href="index.html#projects" class="nav_link">My Projects</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="intro">
+        <h1 style = "text-align: center; padding-left: 2.5em; white-space: nowrap;" class="section_title section_title--intro">
+            MIPS32 <strong>Assembler</strong>
+        </h1>
+        <p style = "text-align: center;" class="section_subtitle--intro section_subtitle">An assembler written in C which supports
+            the MIPS32 instruction set
+        </p>
+       
+    </section>
+
+
+    <div class="project-item-individual">
+        <img style = "float: left; display: inline; width: 30rem; height: 35rem; padding-right: 2em; padding-bottom: 5em;" src="img/MIPSAsm.PNG" alt="">
+        <img style = "float: left; display: inline; width: 30rem; height: 35rem; padding-bottom: 5em;" src="img/MIPSBinary.PNG" alt="">
+        <p> For my Computer Organization II (CS 2506) class, I had to make an assembler which supported the MIPS32 instruction set.
+            This was one of the most time-consuming and challenging projects I've worked on as it required extensive knowledge about the
+            MIPS instruction set, the MIPS datapath, I/O in C, data structures, and how assemblers work.
+        </p>
+        <p> This project helped me become a confident C programmer, expanded my understadning of computer architecture, and made me 
+            comfortbale with using the GCC compiler, GDB Debugger, and Valgrind.
+        </p>
+
+        <p> Click <a href="https://github.com/nairks01/MIPS32-Assembler">here</a> to view the GitHub repository for
+            this project. Please contact me so I can add you as a collaborator.
+        </p>
+
+    </div>
+
+ 
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:nairks01@vt.edu" class="footer_link">nairks01@vt.edu</a>
+        <ul class="social-list">
+            <li class="social-list_item"><a class="social-list_link"
+                    href="https://www.linkedin.com/in/karthik-nair-vt/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list_item"><a class="social-list_link" href="https://github.com/nairks01">
+                <i class="fab fa-github"></i>
+                 </a>
+            </li>
+
+        </ul>
+
+        <p style="font-size: small; padding-top: 2em; color: aliceblue;">This website was created with the help of a 
+            <a style = "color: aqua;" href="https://www.youtube.com/watch?v=_xkSvufmjEs&t=7588s&ab_channel=freeCodeCamp.org">tutorial</a> 
+            from freeCodeCamp.org</p>    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+
+
+</html>
